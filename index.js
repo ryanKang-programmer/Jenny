@@ -401,7 +401,7 @@ function contact() {
                     ${instagram !== undefined && instagram !== "" ? `
                         <li>
                             <a href="${instagram}" target="_blank" style="display: flex; align-items: center;">
-                                <i class="fab fa-instagram fa-3x"></i>
+                                <i class="fab fa-instagram-square fa-3x"></i>
                                 <div style="padding: 0 .5rem">${instagram}</div>
                             </a>
                         </li>
