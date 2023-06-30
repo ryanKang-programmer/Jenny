@@ -1,0 +1,64 @@
+{
+    "volunteering": [
+        {
+            "title": "Mentor",
+            "where": "Korean Conversation Club (KCC) ∙ Calgary, Alberta, University of Calgary",
+            "priod": "Feb 2021 - May 2021 · 4 mos",
+            "contents": "Science and Technology"
+        },
+        {
+            "title":  "Vice President of Events",
+            "where": "University of Calgary",
+            "priod": "May 2021 - Present · 2 yrs 2 mos",
+            "contents": "BMEG"
+        },
+        {
+            "title": "First-Year Commissioner",
+            "where": "University of Calgary",
+            "priod": "Sep 2020 - May 2021 · 9 mos",
+            "contents": "BMEG"
+        },
+        {
+            "title": "Conference Organizer",
+            "where": "Association of Korean-Canadian Scientists & Engineers",
+            "priod": "Sep 2020 · 1 mo",
+            "contents": "Science and Technology"
+        },
+        {
+            "title": "Communication Officer",
+            "where": "Dalhousie University",
+            "priod": "May 2019 - Apr 2020 · 1 yr",
+            "contents": "Education"
+        },
+        {
+            "title": "Agriculture Representative",
+            "where": "Association of Korean-Canadian Scientists & Engineers",
+            "priod": "May 2018 - Apr 2020 · 2 yrs",
+            "contents": "Environment"
+        },
+        {
+            "title": "Job Shadowing",
+            "where": "Dalhousie University",
+            "priod": "May 2019 - Present · 4 yrs 2 mos",
+            "contents": "Education"
+        },
+        {
+            "title": "Judge",
+            "where": "Chignecto West Regional",
+            "priod": "Apr 2019 - Apr 2020 · 1 yr 1 mo",
+            "contents": "Education"
+        },
+        {
+            "title": "Volunteer Staff",
+            "where": "Dlahousie University Community Day",
+            "priod": "Jul 2019 - Present · 4 yrs",
+            "contents": "Education"
+        },
+        {
+            "title": "Judge",
+            "where": "University of Calgary",
+            "priod": "Aug 2021 · 1 mo",
+            "contents": "Judge for 15th Annual Biomedical Engineering, Undergraduate Summer Research Symposium, Biomedical Imaging Session, August 18th, 9:00 am - 1:30 pm"
+        }
+    ]
+}

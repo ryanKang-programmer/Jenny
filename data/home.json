@@ -1,0 +1,20 @@
+{
+    "about" : "I am actively involved in bioprinting research, specifically focusing on the kidney, and I am passionate about the work I do. My research aims to develop functional kidney tissues using advanced bioprinting techniques, collaborating with multidisciplinary teams for a holistic approach. I strive to address the limitations of organ transplantation and improve the lives of individuals suffering from kidney-related disorders through personalized and regenerative medicine approaches.",
+    "career": [
+        {
+            "preiod": "2020 - 2024",
+            "content": "Phd. in Biomedical Engineering,",
+            "affiliation": "University of Calgary"
+        },
+        {
+            "preiod": "2018 - 2020",
+            "content": "MSc. in Agricultural Engineering,",
+            "affiliation": "Dalhousie University"
+        },
+        {
+            "preiod": "2013 - 2017",
+            "content": "BSc. in Marine Fisheries Education,",
+            "affiliation": "Pukyong National University"
+        }
+    ]
+}

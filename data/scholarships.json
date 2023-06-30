@@ -1,0 +1,39 @@
+{
+    "scholarships" : [
+        {
+            "title": "Korean Canadian Science Scholarship Foundation (KCSSF)",
+            "issuedBy": "Issued by The Association of Korean Canadian Scientists and Engineers",
+            "date": "Jul 2022"
+        },
+        {
+            "title": "Vanier Canada Graduate Scholarship (NSERC)",
+            "issuedBy": "Issued by Government of Canada",
+            "date": "May 2022"
+        },
+        {
+            "title": "BME Academic Top Up Award 2021",
+            "issuedBy": "Issued by Biomedical Engineering Graduate Program",
+            "date": "Oct 2021"
+        },
+        {
+            "title": "Biomedical Engineering Research Scholarship Award 2021",
+            "issuedBy": "Issued by Biomedical Engineering Graduate Program Office, University of Calgary",
+            "date": "Apr 2021"
+        },
+        {
+            "title": "Atlantic Farm Mechanization Show Graduate Scholarships",
+            "issuedBy": "Issued by Dalhousie University",
+            "date": "Nov 2019"
+        },
+        {
+            "title": "Chartwells Graduate Scholarship",
+            "issuedBy": "Issued by Dalhousie University",
+            "date": "Nov 2018"
+        },
+        {
+            "title": "Nova Scotia Graduate Scholarship (NSGS)",
+            "issuedBy": "Issued by Nova Scotia Research and Innovation Graduate Scholarships",
+            "date": "May 2018"
+        }
+    ]
+}
