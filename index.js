@@ -9,7 +9,6 @@ window.onload = () => {
     .then(res => res.json())
     .then(data => {
         const {navigation_menu, logo_url} = data;
-        const lastIdx = navigation_menu.filter(n => !n.hide).length;
         const navigation_divs = navigation_menu.reduce((prev, cur, idx) => {
             if (cur.hide) {
                 return prev;
