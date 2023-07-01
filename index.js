@@ -5,9 +5,10 @@ window.onload = () => {
 
     window.addEventListener('resize', function(event) {
         if (window.outerWidth < 900) {
-            document.querySelector("html").style.overflow = "auto"
-        } else {
-            document.querySelector("html").style.overflow = "hidden"
+            window.addEventListener('resize', () => {
+                let vh = window.innerHeight * 0.01
+                document.documentElement.style.setProperty('--vh', `${vh}px`)
+            })
         }
     }, true);
     
