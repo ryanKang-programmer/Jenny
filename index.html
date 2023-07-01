@@ -12,22 +12,27 @@
         <script src="index.js"></script>
     </head>
     <body>
-        <div style="display: flex; flex-direction: column; margin: 0 18vw; padding: 0 2vw; background-color: rgb(246,248,252); background-image: url('images/textured-paper.png');">
+        <div class="body-div">
             <div style="position: relative;">
                 <div style="align-items: center;">
                     <div style="padding: 1rem;">
-                        <img src="./images/logo.png" alt="" style="height: 10vh;">
+                        <a id="logo-link" target="_blank">
+                            <img src="./images/logo.png" alt="" class="logo-img">
+                        </a>
                         <!-- height => 10vh -->
                     </div>
                 </div>
             </div>
-            <div style="height: 10vh;">
-                <div style="display: flex; align-items: center; height: 100%;" id="naviation">
+            <div class="navi-container">
+                <div id="closeNavi" onclick="closeMobileNavi()">
+                    <i class="fas fa-times fa-2x"></i>
+                </div>
+                <div id="navigation">
                 </div>
             </div>
-            <div style="height: calc(80vh - 2rem - 4px); display: flex; padding: 0 1rem">
+            <div class="left-right-container">
                 <div id="left">
-                    <div style="background: url(images/me.png) no-repeat top center; height: 100%; width: 100%;"></div>
+                    <div style="background: url(images/me.png); height: 100%; width: 100%; background-size: contain; background-repeat: no-repeat; background-position: top;"></div>
                 </div>
                 <div id="right" class="contents">
                     <div id="contents-ul" style="padding-left: 1rem;">
@@ -40,6 +45,9 @@
                 <div id="big-img">
                 </div>
             </div>
+        </div>
+        <div class="right-menu" onclick="openMobileNav()">
+            <i class="fas fa-bars fa-2x"></i>
         </div>
     </body>
 </html>

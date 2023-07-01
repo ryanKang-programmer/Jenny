@@ -1,5 +1,6 @@
 {
-    "naviation_menu" : [
+    "logo_url": "https://www.ucalgary.ca/",
+    "navigation_menu" : [
         {
             "name": "Home"
         },

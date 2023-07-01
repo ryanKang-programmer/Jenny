@@ -2,14 +2,14 @@ window.onload = () => {
     /**
      * Making navigation menus
      */
-    const nav = document.getElementById('naviation');
+    const nav = document.getElementById('navigation');
 
-    fetch('./data/naviation_menu.json')
+    fetch('./data/navigation_menu.json')
     .then(res => res.json())
     .then(data => {
-        const {naviation_menu} = data;
-        const lastIdx = naviation_menu.filter(n => !n.hide).length;
-        const navigation_divs = naviation_menu.reduce((prev, cur, idx) => {
+        const {navigation_menu, logo_url} = data;
+        const lastIdx = navigation_menu.filter(n => !n.hide).length;
+        const navigation_divs = navigation_menu.reduce((prev, cur, idx) => {
             if (cur.hide) {
                 return prev;
             } else {
@@ -22,7 +22,10 @@ window.onload = () => {
         }, '')
 
         nav.innerHTML = navigation_divs;
-        selectNav(0, document.querySelector('#naviation').children[0]);
+        selectNav(0, document.querySelector('#navigation').children[0]);
+
+        const logoLink = document.querySelector('#logo-link');
+        logoLink.href = logo_url;
     })
     .catch(err => console.log(err));
 }
@@ -93,17 +96,21 @@ function home() {
         const innerHTML = `
         <div style="height: 100%; display: flex; flex-direction: column;">
             <div style="flex:1; padding: 0 1rem">
-                <h2>
-                    About
-                </h2>
+                <div style="position: sticky; top: 0; background: rgb(246,248,252); background-image: url('images/textured-paper.png');">
+                    <h2>
+                        About
+                    </h2>
+                </div>
                 <div style="padding: .5rem">
                     <span id="about"></span><span class="blink">|</span>
                 </div>
             </div>
             <div style="flex: 1; position: relative; padding: 0 1rem 1rem 1rem;">
-                <h2 style="position: sticky; top: 0; background: rgb(246,248,252); background-image: url('images/textured-paper.png');">
-                    Career
-                </h2>
+                <div style="position: sticky; top: 0; background: rgb(246,248,252); background-image: url('images/textured-paper.png');">
+                    <h2>
+                        Career
+                    </h2>
+                </div>
                 <ul>
                     ${career.reduce((prev, curr) => prev + 
                         `
@@ -172,7 +179,7 @@ function publications() {
                     ${data.reduce((prev, curr) => prev + 
                         `
                         <li class="ul-items">
-                            <div style="display: flex; justify-content: space-between">
+                            <div clas=="mobile-li">
                                 <div style="flex: 0.8;">
                                     <div>
                                         ${curr.title}
@@ -215,7 +222,7 @@ function scholarships() {
                     ${scholarships.reduce((prev, curr) => prev + 
                         `
                         <li class="ul-items">
-                            <div style="display: flex; justify-content: space-between">
+                            <div class="mobile-li">
                                 <div style="flex: 0.8;">
                                     <div>
                                         ${curr.title}
@@ -224,7 +231,7 @@ function scholarships() {
                                         ${curr.issuedBy}
                                     </div>
                                 </div>
-                                <div style="flex: 0.2; font-weight: 700; display: flex; justify-content: end; align-items: center;">
+                                <div class="mobile-period">
                                         ${curr.date}
                                 </div>
                             </div>
@@ -257,7 +264,7 @@ function awards() {
                     ${awards.reduce((prev, curr) => prev + 
                         `
                         <li class="ul-items">
-                            <div style="display: flex; justify-content: space-between">
+                            <div class="mobile-li">
                                 <div style="flex: 1;">
                                     <div>
                                         ${curr.title}
@@ -266,7 +273,7 @@ function awards() {
                                         ${curr.issuedBy}
                                     </div>
                                 </div>
-                                <div style="font-weight: 700; display: flex; justify-content: end; align-items: center;">
+                                <div class="mobile-period">
                                         ${curr.date}
                                 </div>
                             </div>
@@ -299,7 +306,7 @@ function volunteering() {
                     ${volunteering.reduce((prev, curr) => prev + 
                         `
                         <li class="ul-items">
-                            <div style="display: flex; justify-content: space-between">
+                            <div class="mobile-li">
                                 <div style="flex: 1;">
                                     <div>
                                         ${curr.title}
@@ -308,7 +315,7 @@ function volunteering() {
                                         ${curr.where}
                                     </div>
                                 </div>
-                                <div style="font-weight: 700; display: flex; justify-content: end; align-items: center;">
+                                <div class="mobile-period">
                                         ${curr.priod}
                                 </div>
                             </div>
@@ -373,7 +380,7 @@ function contact() {
                 <h2 style="position: sticky; top: 0; background: rgb(246,248,252); background-image: url('images/textured-paper.png');">
                     Contact
                 </h2>
-                <ul class="contact-ul" style="padding: 0 2rem;">
+                <ul class="contact-ul" style="">
                     ${email !== undefined && email !== "" ? `
                         <li>
                             <a href="mailto:${email}" style="display: flex; align-items: center;">
@@ -436,7 +443,7 @@ function gallery() {
                 <h2 style="position: sticky; top: 0; background: rgb(246,248,252); background-image: url('images/textured-paper.png'); z-index: 1;">
                     Gallery
                 </h2>
-                <div style="display: flex; justify-content: space-between; flex-wrap: wrap; padding: 0 2rem">
+                <div class="body-container">
                     ${images_name.reduce((prev, curr) => prev + 
                         `
                         <div class="card" style="overflow: hidden">
@@ -473,4 +480,14 @@ function showModal(url) {
 
     imgDiv.style.backgroundImage = `url('${url}')`;
     imgModal.style.display = 'flex'
+}
+
+function openMobileNav() {
+    const navi = document.querySelector('.navi-container');
+    navi.style.display = "block";
+}
+
+function closeMobileNavi() {
+    const navi = document.querySelector('.navi-container');
+    navi.style.display = "none";
 }
