@@ -3,9 +3,13 @@ window.onload = () => {
      * Making navigation menus
      */
 
-    if (window.outerWidth < 900) {
-        document.querySelector("html").style.overflow = "auto"
-    }
+    window.addEventListener('resize', function(event) {
+        if (window.outerWidth < 900) {
+            document.querySelector("html").style.overflow = "auto"
+        } else {
+            document.querySelector("html").style.overflow = "hidden"
+        }
+    }, true);
     
     const nav = document.getElementById('navigation');
 
