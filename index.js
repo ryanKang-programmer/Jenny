@@ -4,12 +4,8 @@ window.onload = () => {
      */
 
     window.addEventListener('resize', function(event) {
-        if (window.outerWidth < 900) {
-            window.addEventListener('resize', () => {
-                let vh = window.innerHeight * 0.01
-                document.documentElement.style.setProperty('--vh', `${vh}px`)
-            })
-        }
+        let vh = window.innerHeight * 0.01
+        document.documentElement.style.setProperty('--vh', `${vh}px`)
     }, true);
     
     const nav = document.getElementById('navigation');
