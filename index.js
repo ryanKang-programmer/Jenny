@@ -2,6 +2,12 @@ window.onload = () => {
     /**
      * Making navigation menus
      */
+
+    if (window.outerWidth < 900) {
+        document.querySelector("html").style.height = window.innerHeight + "px";
+        document.querySelector("body").style.height = window.innerHeight + "px";
+    }
+
     const nav = document.getElementById('navigation');
 
     fetch('./data/navigation_menu.json')
@@ -48,6 +54,10 @@ function selectNav(idx, t) {
     } else {
         //show picture
         left.style.flex = 1;
+    }
+
+    if (window.outerWidth < 900) {
+        closeMobileNavi();
     }
 
     switch (idx) {
