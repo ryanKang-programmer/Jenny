@@ -4,10 +4,9 @@ window.onload = () => {
      */
 
     if (window.outerWidth < 900) {
-        document.querySelector("html").style.height = window.innerHeight + "px";
-        document.querySelector("body").style.height = window.innerHeight + "px";
+        document.querySelector("html").style.overflow = "auto"
     }
-
+    
     const nav = document.getElementById('navigation');
 
     fetch('./data/navigation_menu.json')
