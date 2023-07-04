@@ -366,4 +366,8 @@ a {
     .img-container {
         width: 80%;
     }
+
+    #left, .contents {
+        margin: .5rem 0;
+    }
 }
