@@ -494,7 +494,7 @@ function showModal(url) {
 
 function openMobileNav() {
     const navi = document.querySelector('.navi-container');
-    navi.style.display = "block";
+    navi.style.display = "flex";
 }
 
 function closeMobileNavi() {
