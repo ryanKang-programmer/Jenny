@@ -55,6 +55,8 @@ function selectNav(idx, t) {
         //show picture
         left.style.flex = 1;
     }
+    
+    alert(window.outerWidth);
 
     if (window.outerWidth < 900) {
         closeMobileNavi();
