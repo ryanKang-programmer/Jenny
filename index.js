@@ -186,24 +186,40 @@ function publications() {
                     Publications
                 </h2>
                 <ul>
-                    ${data.reduce((prev, curr) => prev + 
-                        `
+                    ${data.reduce((prev, curr, idx) => {
+                        const {title, journal, date, author} = curr;
+                        let _html = `
                         <li class="ul-items">
                             <div clas=="mobile-li">
                                 <div style="flex: 0.8;">
                                     <div>
-                                        ${curr.title}
+                                    <span class="index">${data.length - idx}</span>
+                        `;
+                        if (journal !== undefined && date !== undefined) {
+                            _html += `
+                                            ${author}. ${title}
+                                        </div>
+                                        <div style="font-style: italic;">
+                                            ${journal}
+                                        </div>
                                     </div>
-                                    <div style="font-style: italic;">
-                                        ${curr.journal}
+                                    <div style="flex: 0.2; font-weight: 700; display: flex; justify-content: end; align-items: center;">
+                                            ${date}
                                     </div>
                                 </div>
-                                <div style="flex: 0.2; font-weight: 700; display: flex; justify-content: end; align-items: center;">
-                                        ${curr.date}
+                            </li>
+                            `
+                        } else {
+                            _html += `
+                                            ${title}
+                                        </div>
+                                        <div class="in-progress">In progress</div>
                                 </div>
-                            </div>
-                        </li>
-                        `
+                            </li>
+                            `
+                        }
+                        return prev + _html;
+                        }
                     , '')}
                 </ul>
             </div>

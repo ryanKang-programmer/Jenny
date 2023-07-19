@@ -1,54 +1,80 @@
 {
     "data": [
         {
-            "title": "Development of Anti-freezing, Printable, Adhesive, Tough, Biocompatible, High Water Content Hydrogel for Versatile ApplicationsDevelopment of Anti-freezing, Printable, Adhesive, Tough, Biocompatible, High Water Content Hydrogel for Versatile Applications",
+            "title": "Development of Anti-freezing, Printable, Adhesive, Tough, Biocompatible, High Water Content Hydrogel for Versatile Applications",
             "journal": "ACS Applied Materials & Interfaces",
-            "date": "Mar 14, 2023"
+            "date": "Mar 14, 2023",
+            "author": "Li, Z., Kumar, H., Guo, C., Shin, J., He, X., Lu, Q., ... & Hu, J. (2023)"
         },
         {
             "title": "Visible light laser direct-writing of high-resolution, biocompatible, super-multifunctional and tough hydrogels without photoinitiators in 30s",
             "journal": "Biomaterials Advances",
-            "date": "Feb 1, 2023"
+            "date": "Feb 1, 2023",
+            "author": "Li, Z., He, X., Kumar, H., Shin, J., Guo, C., Abraham, B., ... & Hu, J. (2023)"
         },
         {
             "title": "Trends and Prospect of Machine Vision Technology for Stresses and Diseases Detection in Precision Agriculture",
             "journal": "AgriEngineering",
-            "date": "Dec 24, 2022"
+            "date": "Dec 24, 2022",
+            "author": "Shin, J., Mahmud, M., Rehman, T. U., Ravichandran, P., Heung, B., & Chang, Y. K. (2023)"
         },
         {
             "title": "Optimized 3D Bioprinting Technology Based on Machine Learning: A Review of Recent Trends and Advances",
             "journal": "Micromachines",
-            "date": "Feb 25, 2022"
+            "date": "Feb 25, 2022",
+            "author": "Shin, J., Lee, Y., Li, Z., Hu, J., Park, S., & Kim K. (2022)"
         },
         {
             "title": "Micro/nanotechnology-inspired rapid diagnosis of respiratory infectious diseases",
             "journal": "Biomedical Engineering Letters",
-            "date": "Sep 8, 2021"
+            "date": "Sep 8, 2021",
+            "author": "Homayoonnia, S., Lee Y., Andalib, D., Rahman, M.S., Shin, J., Kim K., & Kim, S. (2021)"
         },
         {
             "title": "A deep learning approach for RGB image-based powdery mildew disease detection on strawberry leaves",
             "journal": "Computers and Electronics in Agriculture",
-            "date": "Feb 5, 2021"
+            "date": "Feb 5, 2021",
+            "author": "Shin, J., Chang, Y. K., Heung, B., Nguyen-Quang, T., Price, G. W., & Al-Mallahi, A. (2021)"
         },
         {
             "title": "Effect of directional augmentation using supervised machine learning technologies – A case study of strawberry powdery mildew detection",
             "journal": "Biosystems Engineering",
-            "date": "Mar 1, 2020"
+            "date": "Mar 1, 2020",
+            "author": "Shin, J., Chang, Y. K., Heung, B., Nguyen-Quang, T., Price, G. W., & Al-Mallahi, A. (2020)"
         },
         {
             "title": "Comparison of Image Texture based Supervised Learning Classifiers for Strawberry Powdery Mildew Detection",
             "journal": "Agriengineering",
-            "date": "Aug 1, 2019"
+            "date": "Aug 1, 2019",
+            "author": "Chang, Y. K., Mahmud, M., Shin, J., Nguyen-Quang, T., Price, G. W., & Prithiviraj, B. (2019)"
         },
         {
             "title": "Optimizing parameters for image processing techniques using machine learning to detect powdery mildew in strawberry leaves",
             "journal": "American Society of Agricultural and Biological Engineers (ASABE)",
-            "date": "Jun 1, 2019"
+            "date": "Jun 1, 2019",
+            "author": "Shin, J., Chang, Y. K., Quang, T. N., Heung, B., & Ravichandran, P. (2019)"
         },
         {
             "title": "Current and future applications of statistical machine learning algorithms for agricultural machine vision systems",
             "journal": "Computers and Electronics in Agriculture",
-            "date": "Jan 1, 2019"
+            "date": "Jan 1, 2019",
+            "author": "Rehman, T. U., Mahmud, M. S., Chang, Y. K., Jin, J., & Shin, J. (2019)"
+        },
+        {
+            "title": "Nanoparticle-based nanocomposite coatings with post-processing for enhanced antimicrobial capacity of polymeric film",
+            "author": "Shin, J., Jeong, R., Kumar, H., Park, C., Park, S.S., & Kim, K. (2023)"
+        },
+        {
+            "title": "Automated and Cost-Effective 3D Bioprinting of Kidney Organoids",
+            "author": "Shin, J., Jeong, R., Kumar, H., Park, C., Park, S.S., & Kim, K. (2023)"
+        },
+        {
+            "title": "Optimization of 3D bioprinting parameters using deep learning for droplet printing required to print kidney organoids",
+            "author": "Shin, J., Park, S.S., & Kim, K. (2023)"
+        },
+        {
+            "title": "Comparison of image processing techniques with supervised machine learning vs. deep learning based on texture analysis to detect powdery mildew on strawberry leaves. Texture Analysis in Image Processing",
+            "author": "Shin, J., Chang, Y. K., & Heung, B. (2023)"
         }
     ]
 }

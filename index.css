@@ -243,6 +243,27 @@ a {
     display: none;
 }
 
+.in-progress {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-weight: bold;
+    padding: 1rem 0;
+}
+
+.index {
+    display: inline-flex;
+    font-weight: 700;
+    /* color: white;
+    background-color: black; */
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    min-width: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
 @media screen and (max-width: 1850px) {
     .navigation-item {
         font-size: 0.9rem;
